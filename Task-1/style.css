@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:"Roboto", sans-serif;;
+}
+/* ======================common css=========================================== */
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.row{
+    display: flex;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+   
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+
+/* ====================header css================================== */
+header{
+    background-color: black;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    z-index: 1999;
+}
+header ul{
+    display: flex;
+    list-style-type: none;
+}
+header a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+}
+header img{
+    margin: 0px 10px;
+    padding: 5px;
+}
+header button{
+  padding: 10px 20px;
+  margin: 15px;
+  /* margin-right: 0px; */
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border: 0px;
+  /* text-align: center; */
+}
+.header-button{
+ text-align: center;
+}
+header button:hover{
+    opacity: 0.8;
+    color: black ;
+}
+header a:hover{
+  color: red;
+}
+
+
+/* =========================main-part============================ */
+
+
+/* ******************hero-part******************* */
+.hero-img{
+    position: relative;
+    opacity: 1.0;
+}
+.hero-txt{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+}
+.hero-txt p,h1{
+    padding: 10px;
+}
+.hero-part h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+}
+.hero-part p{
+    color: black;
+    font-weight: 600;
+    font-size: 25px;
+}
+.hero-part button{
+  padding: 20px 40px;
+  margin: 15px;
+  margin-right: 0px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  border: 0px;
+  font-size: 18px;
+}
+.hero-part button:hover{
+    opacity: 0.5;
+    color: black;
+}
+
+/* *******************************our-story-part************************** */
+.our-story-part{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    margin: 0px;
+}
+.our-story-content p,h2{
+    padding: 15px;
+    line-height: 30px;
+}
+.our-story-content p{
+    color: #9ca3af;
+}
+
+.our-story-performance{
+    padding: 15px;
+}
+.our-story-img img{
+    border-radius: 20px;
+}
+.our-story-part h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+.our-story-performance h3{
+    padding: 10px;
+}
+.our-story-performance p{
+    color: #9ca3af;
+}
+.our-story-performance h3{
+    color: red;
+    font-family: Playfair Display, Georgia, serif;
+}
+
+/* ========================our menu part=========================== */
+.our-menu-part{
+    background-color: rgb(25, 25, 45);
+    color: white;
+    padding: 40px;
+}
+.our-menu-part p,h3{
+    padding: 10px;
+}
+.our-menu-content{
+    text-align: center;
+}
+.our-menu-content h2{
+    font-size: 40px;
+}
+.our-menu-part img{
+    width: 100%;  
+}
+.item-img{
+    margin: 15px;
+}
+.item-content{
+    padding: 15px;
+    background-color: rgb(44, 44, 68); 
+}
+.item-content p{
+    color: #9ca3af;
+}
+.item-content p,h3{
+    padding: 10px 0px;
+}
+.view-full-menu{
+    text-align: center;
+    color: red;
+    padding-top: 50px;
+}
+.view-full-menu:hover{
+    opacity: 0.7;
+    color: aliceblue;
+}
+
+/* ===============review part================ */
+.review-part{
+    background-color: black;
+    color: white;
+}
+.review-heading{
+    text-align: center;
+    margin: 30px;
+}
+.people-review i{
+    color: rgb(246, 242, 8);
+}
+.people-review{
+    background-color: rgb(25, 25, 45);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.people-review p,h4{
+    padding: 15px 0px;
+}
+
+/* =======================reservation-part================================== */
+.reservation-part{
+    background-color: rgb(25, 25, 45);
+    color: white;
+}
+.reservation-content{
+    margin: 100px;
+    margin-left: 50px;
+}
+.reservation-content h4{
+    font-size: 40px;
+    font-family: "Caveat", cursive;
+}
+.reservation-content p{
+    color: #9ca3af;
+    padding: 20px 0px;
+}
+.reservation-content i{
+    color: red;
+}
+.reservation-form{
+    margin: 20px;
+    background-color: rgb(44, 44, 68); ;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+}
+.reservation-form label,input,select{
+    padding: 15px;
+    margin:15px;
+    width: 95%;
+    border-radius: 10px;
+    color: #9ca3af;
+}
+/* .reservation-form input{
+    width: 100%;
+} */
+.reservation-form button{
+    width: 98%;
+    background-color: red;
+    color: white;
+    border: 0px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.reservation-form button:hover{
+    opacity: 0.5;
+    color: white;
+}
+
+/* ======================gallary-part====================== */
+.gallary-part{
+    background-color: rgb(25, 25, 45);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.gallary-part h2{
+    font-size: 40px;
+}
+.gallary-part img{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 30px
+}
+
+/* =======================footer-part========================== */
+.footer-part{
+     background-color: rgb(25, 25, 45);
+     color: #9ca3af;
+}
+.footer-part h3{
+    color: white;
+}
+.footer-part hr{
+    color: #9ca3af;
+}
+.footer-contact-address-email{
+    margin-left: 50px;
+    padding: 10px;
+    line-height: 30px;
+}
+.foote-quick-links-part p{
+    padding: 5px;
+    padding-left: 0px;
+}
+.footer-days p{
+    padding: 5px;
+    padding-left: 0px;
+}
+.footer-timing p{
+    padding: 5px;
+    padding-left: 0px;
+}
+.footer-contact-address-email img{
+   width: 200px;
+}
+.footer-contact-address-email i{
+    color: red;
+    font-size: 22px;
+}
+.footer-news-letter-part input{
+    width: 100%;
+    margin: 10px;
+    margin-left: 0px;
+}
+.footer-news-letter-part button{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    width: 80%;
+}
+.footer-news-letter-part button:hover{
+   background-color: gainsboro;
+    color: black;
+}
+.footer-terms{
+    padding: 20px;
+    margin: 50px;
+}
