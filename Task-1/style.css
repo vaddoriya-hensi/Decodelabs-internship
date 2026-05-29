@@ -158,6 +158,12 @@ header a:hover{
 }
 .our-story-img img{
     border-radius: 20px;
+    transition: 0.2s all;
+    cursor: pointer;
+}
+.our-story-img img:hover{
+    transform: scale(0.9);
+    
 }
 .our-story-part h2{
     font-size: 30px;
@@ -191,6 +197,11 @@ header a:hover{
 }
 .our-menu-part img{
     width: 100%;  
+    transition: 0.2s all;
+    cursor: pointer;
+}
+.our-menu-part img:hover{
+    transform: scale(1.1);
 }
 .item-img{
     margin: 15px;
@@ -300,11 +311,15 @@ header a:hover{
     font-size: 40px;
 }
 .gallary-part img{
-    padding: 10px;
+    padding: 15px;
     margin-top: 20px;
-    border-radius: 30px
+    border-radius: 30px;
+    transition : 0.2s all;
+    cursor: pointer;
 }
-
+.gallary-part img:hover{
+    transform: scale(1.1);
+}
 /* =======================footer-part========================== */
 .footer-part{
      background-color: rgb(25, 25, 45);
