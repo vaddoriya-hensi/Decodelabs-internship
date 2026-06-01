@@ -1,0 +1,52 @@
+@media(max-width:576px)
+{
+    header{
+        width: 100%;
+       
+    }
+    header nav{
+        display: none;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero{
+        width: 100%;
+    }
+    .sm-12{
+        width: 100%;
+    }
+    .hero-txt{
+        position: absolute;
+        left: 25%;
+    }
+    .About{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+    }
+    .footer-img{
+        width: 100%;
+    }
+    .footer-part{
+        width: 100%;
+    }
+}
+@media(min-width:577px) and (max-width:767px)
+{
+    .sm-6{
+        width: 50%;
+    }
+    .bars{
+        display: none;
+    }
+
+}
+@media(min-width:768px) 
+{
+   .bars{
+     display: none;
+   }
+}

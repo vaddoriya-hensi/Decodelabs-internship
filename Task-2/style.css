@@ -1,0 +1,258 @@
+/* common-css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+    /* background-color:aliceblue; */
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+   
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+
+
+/* for header*/
+header{
+    /* background-color: aliceblue; */
+    padding: 20px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+}
+.logo{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 10px;
+    left: 0px;
+}
+.nav-button ul{
+    display: flex;
+    margin: 0px 20px;
+    letter-spacing: 5px;
+    justify-content: flex-end;
+    
+}
+.nav-button ul li{
+    list-style-type: none;
+    
+    margin: 0 10px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.hero{
+    position: relative;
+}
+.hero-txt{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    
+}
+.hero-txt .br-txt{
+    background-color: black;
+    color: white;
+}
+.hero .arc-txt{
+    color: white;
+}
+
+
+/*project css*/
+.project-title{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight:200;
+    font-family: "Roboto", sans-serif;  
+}
+.project-title h2{
+    font-weight:200;
+}
+hr{
+    margin-top: 10px;
+}
+.project{
+    margin-top: 30px;
+    padding: 10px;
+}
+.project-img{
+     position: relative;
+       margin: 15px;
+      
+}
+
+.project-img img{
+   
+    width: 100%;
+
+}
+.summer-house-txt{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px; 
+     left: 0;
+    top: 0;
+}
+.Brick-house-txt{
+     position: absolute;
+    background-color: black;
+    color: white;
+    padding: 10px; 
+     left: 0;
+    top: 0;
+
+}
+.Renovated-house-txt{
+    position: absolute;
+    background-color:black;
+     color: white;
+    padding: 10px; 
+     left: 0;
+    top: 0;
+}
+.Barn-house-txt{
+    position: absolute;
+    background-color:black;
+     color: white;
+    padding: 10px; 
+     left: 0;
+    top: 0;
+}
+
+/*about css*/
+.About-title{
+    margin-bottom: 10px;
+    padding: 10px;
+    font-weight:200;
+    font-family: "Roboto", sans-serif;  
+    line-height: 25px;
+}
+.About-title h2{
+font-weight:200;
+}
+.About-title p{
+    font-weight: 400;
+    font-family: Verdana, sans-serif;
+
+}
+.About hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.About .about-content{
+    padding: 5px;
+    line-height: 25px;
+}
+.about-content button:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.5s all ease;
+}
+.About .about-para{
+    color: rgb(141, 137, 137);
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+.About .about-button{
+    padding: 10px;
+    margin-left: 0px;
+    background-color:  rgb(222, 215, 215);
+    border: 0;
+    width: 100%;
+}
+
+
+/*contact css*/
+.contact{
+    width:100%;
+    border: 0px;
+    padding: 10px;
+    margin: 30px;
+    margin-left: 0px;
+}
+.contact hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Contact p{
+   margin-top: 20px;
+}
+input{
+    display: block;
+      padding: 15px;
+    width: 100%;
+    margin: 10px 0px;
+    border-color: gainsboro;
+
+}
+button{
+    padding: 15px;
+    margin: 10px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    border :0px;
+ 
+}
+.form-content button:hover{
+    background-color: gray;
+    color: black;
+    transition: 0.5s all ease;
+}
+
+/*footer css*/
+.footer-part{
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
