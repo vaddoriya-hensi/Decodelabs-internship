@@ -22,3 +22,10 @@
 * Optimized for All Screen Sizes 📱💻🖥️
 
 Output :-
+<img width="1130" height="840" alt="7" src="https://github.com/user-attachments/assets/beb1cf50-b91d-4d94-9c83-bd707c8f7592" />
+
+<img width="1246" height="862" alt="8" src="https://github.com/user-attachments/assets/1728d057-596c-461f-9b01-5936f9be3ac4" />
+
+<img width="1407" height="862" alt="9" src="https://github.com/user-attachments/assets/b71d5159-4901-47d0-937f-9a428450ab38" />
+
+
