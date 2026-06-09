@@ -44,3 +44,6 @@ Through this project, I practiced:
 - Styling forms and buttons
 - Creating modern UI components
 - Website layout organization
+
+Output :-
+<img width="1877" height="1012" alt="1" src="https://github.com/user-attachments/assets/30640dc0-7740-4f03-b5d6-de3a6d705d0a" />
