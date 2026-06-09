@@ -47,3 +47,18 @@ Through this project, I practiced:
 
 Output :-
 <img width="1877" height="1012" alt="1" src="https://github.com/user-attachments/assets/30640dc0-7740-4f03-b5d6-de3a6d705d0a" />
+
+<img width="1890" height="916" alt="2" src="https://github.com/user-attachments/assets/8d42c7ad-b584-421e-89ec-65795d4462b9" />
+
+<img width="1872" height="917" alt="3" src="https://github.com/user-attachments/assets/74f8528a-01d8-4d39-952b-077a7e9fdbd7" />
+
+<img width="1872" height="892" alt="4" src="https://github.com/user-attachments/assets/6cdab155-90b4-49f6-9214-29ed7c8e9ae6" />
+
+<img width="1882" height="902" alt="5" src="https://github.com/user-attachments/assets/2ccd37a9-92f4-4671-9aec-3f05ab27ab7d" />
+
+<img width="1902" height="907" alt="6" src="https://github.com/user-attachments/assets/9e39f145-10f4-4b4b-a193-fa08c2b21d5d" />
+
+
+
+
+
